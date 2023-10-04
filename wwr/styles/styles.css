@@ -1,5 +1,9 @@
+header{
+    background-color: black;
+}
+
 body {
-    background-color: #2e2e2e;
+    background-color: #1ebce8;
 }
 
 div{
@@ -7,15 +11,44 @@ div{
     margin: 0;
 }
 
+#background{
+    height: 725px;
+    background-color: white;
+}
+
 nav a{
     text-align: center;
+    color:white;
 }
+
+nav a:hover{
+    background-color: #000000;
+}
+
+.msg{
+    background-color: black;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
 .button-box{
     text-align: center;
 }
+
 main section{
     text-align: center;
+}
+
+.book, .join{
+    background:black
+}
+
+.book:hover, .join:hover{
+    background-color: white;
+}
+
+foot{
+    background-color: black;
 }
