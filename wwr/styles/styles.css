@@ -68,7 +68,7 @@ footer a:hover{
 }
 
 footer p a:hover{
-    font-size: 	1,3em;
+    font-size: 	1,2em;
     text-decoration: underline;
 }
 
@@ -87,6 +87,7 @@ h4{
 .msg p{
     color: #000000;
 }
+
 .icon{
     width: 80px;
 }
