@@ -49,8 +49,12 @@ nav a:hover{
 main section{
     text-align: center;
 }
+#book{
+    text-align: center;
+}
 
 .book, .join{
+    text-align: center;
     background:black;
     text-decoration: none;
 }
