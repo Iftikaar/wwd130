@@ -3,7 +3,7 @@ header{
 }
 
 body {
-    background-color: #1ebce8;
+    background-color: #181716;
 }
 
 div{
@@ -92,5 +92,6 @@ h4{
     width: 80px;
 }
 #hero-image{
-    width: 80px;
+    width: 100%
 }
+
