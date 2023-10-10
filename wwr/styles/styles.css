@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda:wght@300&family=Merriweather:ital,wght@0,300;1,300&family=PT+Serif&family=Young+Serif&display=swap');
+
+
 header{
     background-color: #faedcd;
+    font-family: "PT Serif", Serif;
 }
 
 body {
@@ -9,6 +13,7 @@ body {
 div{
     max-width: 1600px;
     margin: 0;
+    font-family: "Young Serif", Kalam, Merienda;
 }
 
 #content{
@@ -23,6 +28,7 @@ nav a{
     text-align: center;
     color:rgb(0, 0, 0);
     text-decoration: none;
+    font-family: "PT Serif", Serif;
 }
 
 nav a:hover{
@@ -67,6 +73,7 @@ main section{
 footer{
     background-color: #faedcd;
     color: #000000;
+    font-family: "PT Serif", Serif;
 }
 footer a{
     color: #030303;
@@ -86,8 +93,11 @@ footer p{
 h1{
     color: #000000;
 }
+h2{
+    font-family: "Young Serif", Kalam, Merienda;
+}
 h4{
-    color: #000000;
+    color: #000000;    
 }
 .book, .join{
     color: antiquewhite;
@@ -98,6 +108,7 @@ h4{
 }
 .msg p{
     color: #000000;
+    font-family: "PT Serif", Serif;
 }
 
 .icon{
