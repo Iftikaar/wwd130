@@ -3,17 +3,23 @@
 
 header{
     background-color: #faedcd;
-    font-family: "PT Serif", Serif;
+}
+
+.home-title {
+    font-family: "Young Serif", Kalam, Merienda;
+    font-size: 2em;
 }
 
 body {
   background-color: #ccd5ae;
+  font-family: "Young Serif", Kalam, Merienda;
+  margin: 0;
+  padding: 0;
 }
 
 div{
     max-width: 1600px;
     margin: 0;
-    font-family: "Young Serif", Kalam, Merienda;
 }
 
 #content{
@@ -29,6 +35,7 @@ nav a{
     color:rgb(0, 0, 0);
     text-decoration: none;
     font-family: "PT Serif", Serif;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -36,12 +43,15 @@ nav a:hover{
     color:#000000
 }
 
-.home_title{
-    color: antiquewhite;
+.home-title{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
 }
 
 .msg{
     background-color: #faedcd;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -50,6 +60,7 @@ nav a:hover{
 
 .button-box{
     text-align: center;
+    font-family: "Young Serif", Kalam, Merienda;
 }
 
 main section{
@@ -61,8 +72,13 @@ main section{
 
 .book, .join{
     text-align: center;
+    padding: 15px 30px;
+    color: #ffffff;
     background:black;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -74,7 +90,10 @@ footer{
     background-color: #faedcd;
     color: #000000;
     font-family: "PT Serif", Serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer a{
     color: #030303;
     text-decoration: none;
@@ -95,13 +114,13 @@ h1{
 }
 h2{
     font-family: "Young Serif", Kalam, Merienda;
+    margin: 0;
 }
 h4{
-    color: #000000;    
+    color: #000000;
+    font-family: "Young Serif", Kalam, Merienda; 
 }
-.book, .join{
-    color: antiquewhite;
-}
+
 
 .msg h2{
     color: #000000;
@@ -109,16 +128,35 @@ h4{
 .msg p{
     color: #000000;
     font-family: "PT Serif", Serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
+
 #hero-img{
     width: 100%;
 }    
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000;
+}
 
+main section img{
+    box-sizing: border-box;
+}
