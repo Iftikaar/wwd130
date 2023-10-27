@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Manrope:wght@200&family=Noto+Sans&display=swap');
+ 
+ 
+ 
+header{
+    padding: 1em;
+    text-align: center;
+    color:antiquewhite;
+    font-family: Manrope, "Libre Franklin", "Noto Sans";
+}
+ 
+body{
+    color:antiquewhite;
+    background-color: black;
+    font-family: "Libre Franklin", "Noto Sans";
+}
+h2{
+    font-family: "Libre Franklin", "Noto Sans";
+    text-align: center;
+    color: antiquewhite;
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-family: "Libre Franklin", "Noto Sans";
+}
+p{
+    color: antiquewhite;
+}
+img{
+    margin: 0 auto;
+    display: block;
+    max-width: 300px;
+}
+ 
