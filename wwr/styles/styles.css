@@ -4,7 +4,7 @@
 header{
     background-color: #faedcd;
     display: grid;
-    grid-template-columns: 150px;
+    grid-template-columns: 150px auto;
 }
 
 .home-title {
@@ -181,6 +181,7 @@ footer .social img{
     border: 10px solid #000000;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 
 main section img{
@@ -189,7 +190,6 @@ main section img{
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
 }
 
 #hero-box{
@@ -209,7 +209,7 @@ main section img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.river-card{
+.rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -220,6 +220,11 @@ main section img{
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 @media screen and (max-width: 900px) {
