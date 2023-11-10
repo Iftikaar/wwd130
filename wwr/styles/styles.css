@@ -268,4 +268,20 @@ main section img{
         margin-top: 25px;
     }
 }
-            
+
+.river-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+ 
+.rivers-grid h3{
+    text-align: center;
+}
+.rivers-grid h2{
+    text-align: center;
+}
+ 
