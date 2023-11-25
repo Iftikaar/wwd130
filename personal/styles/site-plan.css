@@ -181,14 +181,12 @@ nav a:hover {
   border: 50px;
   cursor: pointer;
 }
-
-/* The container <div> - needed to position the dropdown content */
+ 
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -216,8 +214,32 @@ nav a:hover {
   background-color: #b80c09;
 }
 
-.Niflgaard{
-  width: 100%;
+.nilf{
+  width: 250px;
   padding: 50px;
+  grid-template-columns: 1/2;
+  grid-template-rows: 	2/3;
+}
+.nilf_solider{
+  width: 250px;
+  padding: 50px;
+  grid-template-columns: 1/2;
+  grid-template-rows: 1/2;
 }
 
+.geralt{
+  margin: 0 auto;
+  padding: 50px;
+}
+.roach{
+  width: 500px;
+}
+
+footer{
+  background-color: #757780;
+  color: #08090a;
+  padding: 25px 50px;
+  margin-top: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
