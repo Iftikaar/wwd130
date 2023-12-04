@@ -316,12 +316,17 @@ footer{
   grid-gap: 20px;
 }
 
-.ogroids {
+
+.ogroids{
   padding: 50px;
   justify-content: space-around;
   align-items: center;
   display: flex;
   flex-direction: row;
+}
+
+
+.ogroids{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
