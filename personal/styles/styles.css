@@ -220,6 +220,13 @@ nav a:hover {
   background-color: #b80c09;
 }
 
+.map{
+width: 250px;
+padding: 50px;
+grid-template-columns: 1/2;
+grid-template-rows: 	2/3;
+}
+
 .nilf{
   width: 250px;
   padding: 50px;
